@@ -1,0 +1,29 @@
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Raza</th>
+      <th scope="col">Tipo de Raza</th>
+
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr>
+      <td>
+        
+          <tr *ngFor="let Vist of items  " >
+            <td>{{Vist}}</td>
+          </tr>
+       
+      </td>
+      <td>
+       
+          <tr *ngFor="let Vista of vistaprincipal ">
+            <td> {{Vista.length}}</td>
+          </tr>
+        
+      </td>
+    </tr>
+
+  </tbody>
+</table>

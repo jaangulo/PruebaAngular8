@@ -1,0 +1,17 @@
+<h2>Ingresar Perro</h2>
+<div>
+    <div class="form-group">
+      <label for="name">Nombre</label>
+      <input [(ngModel)]="principal.name" type="text" class="form-control" id="name" placeholder="Ingresar Nombre">
+    </div>
+    <div class="form-group">
+      <label for="raza">Raza</label>
+      <input [(ngModel)]="principal.raza" type="text" class="form-control" id="raza" placeholder="Ingresar Raza del Perro">
+    </div>
+    <div class="form-group">
+      <label for="year">Fecha De Nacimiento</label>
+      <input [(ngModel)]="principal.year"  type="number" class="form-control" id="year" placeholder="Ingresar Fecha de Nacimiento ">
+    </div>
+    
+    <button (click)="saveIngresar()" class="btn btn-primary">Guardar</button>
+  </div>

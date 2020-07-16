@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Dogapi"
+    }
+  },
+  "defaultProject": "Dogapi",
+  "cli": {
+    "analytics": "b3d3723f-c46d-435d-a012-189c73769469"
+  }
 }
